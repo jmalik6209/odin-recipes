@@ -1,0 +1,14 @@
+.header{
+    font-family: 'Amatic SC', cursive;
+    font-size: 7em;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+.content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+}

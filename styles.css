@@ -6,9 +6,54 @@
     font-weight: 300;
 }
 
+.header:hover{
+    background-color: #F8F4E1;
+}
 .content{
     font-family: 'Quicksand', sans-serif;
     font-size: 3em;
     margin: auto;
     text-align: center;
 }
+
+.menu a{
+    font-size: 0.5em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+figure{
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+figure img{
+    width: 460px;
+    height: 460px;
+}
+
+figure:hover{
+    background-color:#F8F4E1;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu{
+    width: calc(33.33% - 1.5em);
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
